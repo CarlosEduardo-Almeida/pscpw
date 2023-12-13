@@ -1,0 +1,90 @@
+@media screen and (max-width:550px) {
+    .container{
+        padding: 10px;
+    }
+    .container-left{
+        max-height: 120px;
+        max-width: 120px;
+    }
+    .container-right{
+        padding: 5px;
+    }
+    .div-botoes{
+        flex-direction: column;
+    }
+    .div-botoes button{
+        padding: 5px;
+        width: 100%;
+        line-height: 0.9em;
+    }
+    .div-bio{
+        padding: 10px;
+    }
+    .none{
+        display: none;
+    }
+    .flex{
+        display: flex;
+    }
+    .div-seguidores{
+        align-items: center;
+        border-top: 1px solid #00000040;
+        justify-content: space-around;
+    }
+    .div-seguidores span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .icone{
+        width: 25px;
+        height: 25px;
+    }
+    .options > span{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .div-options{
+        font-size: 10px;
+    }
+
+    header{
+        position: fixed;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+        border-top: 2px solid black;
+        border-bottom:  1px solid #00000040;
+        background-color: #fff;
+    }
+    header div{
+
+        display: flex;
+        align-items: center;
+    }
+    .icone-header{
+        width: 25px;
+    }
+    footer{
+        align-items: center;
+        justify-content: space-around;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        background-color: #fff;
+    }
+    .foto-footer{
+        border-radius: 50%;
+        border: 2px solid black;
+    }
+    .galeria-fotos{
+        margin-bottom: 60px;
+    }
+}
